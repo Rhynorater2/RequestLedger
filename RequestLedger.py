@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 #Logs HTTP Requests to the server. Designed for troubleshooting host header poisoning in recon
 import os
-os.system("set")
+os.system("echo $test")
+os.system("echo 'Got here'")
 from BaseHTTPServer import HTTPServer, BaseHTTPRequestHandler
 from optparse import OptionParser
 import datetime
